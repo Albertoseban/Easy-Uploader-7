@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone" data-theme="b">
+  <body>
+    <div id="wrapper">
+        <header data-role="header" data-position="fixed" id="header">
+            <h1> Easy Uploader </h1>
+        </header>
+       <h3>Choose Image to Share </h3>
+	   <ul>
+	 <li>  <img src="http://i.imgur.com/vKF8mmQ.jpg">     <a href="javascript: void(0);" onclick='window.open("https://www.facebook.com/dialog/feed?client_id=777378369027611&amp;name=exampleOfWebService&amp;source=http://i.imgur.com/vKF8mmQ.jpg&amp;redirect_uri=https://www.facebook.com", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes")'><input type="button" value="Facebook Share"></a></li>
+	 <li> <img src="http://i.imgur.com/MS69jcR.jpg">  <a href="javascript: void(0);" onclick='window.open("https://www.facebook.com/dialog/feed?client_id=777378369027611&amp;name=exampleOfWebService&amp;source=http://i.imgur.com/MS69jcR.jpg&amp;redirect_uri=https://www.facebook.com", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes")'><input type="button" value="Facebook Share"></a></li>
+	 <li> <img src="http://i.imgur.com/gtuha2Z.jpg">  <a href="javascript: void(0);" onclick='window.open("https://www.facebook.com/dialog/feed?client_id=777378369027611&amp;name=exampleOfWebService&amp;source=http://i.imgur.com/gtuha2Z.jpg&amp;redirect_uri=https://www.facebook.com", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes")'><input type="button" value="Facebook Share"></a></li>
+    
+
+        </ul>
+        
+        <textarea name="WPcomment" id="WPComment" placeholder="Enter to share on Facebook"></textarea>
+        <a href="javascript: void(0);" onclick='window.open("https://www.facebook.com/dialog/feed?client_id=777378369027611&amp;name=exampleOfWebService&amp;redirect_uri=https://www.facebook.com", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes")'>  <input type="button" value="Facebook share"></a>
+        <textarea name="WPcomment" id="CommentShare" placeholder="Enter to share on Twitter"></textarea>
+		<a href="javascript: void(0);" onclick='window.open("https://twitter.com/share?text=hi", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=500, left=500, width=400, height=400")'><input type="button" value="Twitter share"></a>
+
+        
+        <button type="submit">Share in Facebook</button>
+           
+        </div>
+     
+        <footer data-role="footer" id="footer">
+            <h4> Copyright © 2015 | Easy Uploader</h4>
+        </footer>
+ 
+    </div>
+ 
+</body>
+</html>
